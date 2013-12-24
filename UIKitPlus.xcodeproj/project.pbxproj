@@ -36,10 +36,27 @@
 		50C5F39E18699AAD0057564D /* UIViewController+UIPNavigationControllerPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F38018699AAD0057564D /* UIViewController+UIPNavigationControllerPop.m */; };
 		50C5F39F18699AAD0057564D /* UIViewController+UIPPresentModalViewControllerWithSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F38218699AAD0057564D /* UIViewController+UIPPresentModalViewControllerWithSize.m */; };
 		50C5F3A018699AAD0057564D /* UIWebView+UIPHTMLSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F38418699AAD0057564D /* UIWebView+UIPHTMLSource.m */; };
+		50C5F3A618699D0A0057564D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F32518699A860057564D /* Foundation.framework */; };
+		50C5F3D718699D260057564D /* NSBundle+UIPLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F3C918699D260057564D /* NSBundle+UIPLocalization.m */; };
+		50C5F3D818699D260057564D /* NSBundle+UIPStandardLocalizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F3CB18699D260057564D /* NSBundle+UIPStandardLocalizations.m */; };
+		50C5F3D918699D260057564D /* UIButton+UIPLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F3CD18699D260057564D /* UIButton+UIPLocalization.m */; };
+		50C5F3DA18699D260057564D /* UIKitPlusLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F3D018699D260057564D /* UIKitPlusLocalization.m */; };
+		50C5F3DB18699D260057564D /* UILabel+UIPLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F3D218699D260057564D /* UILabel+UIPLocalization.m */; };
+		50C5F3DC18699D260057564D /* UIView+UIPAccessibilityLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F3D418699D260057564D /* UIView+UIPAccessibilityLocalization.m */; };
+		50C5F3DD18699D260057564D /* UIView+UIPLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F3D618699D260057564D /* UIView+UIPLocalization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		50C5F32018699A860057564D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C5F3A318699D0A0057564D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
@@ -113,6 +130,22 @@
 		50C5F38218699AAD0057564D /* UIViewController+UIPPresentModalViewControllerWithSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIPPresentModalViewControllerWithSize.m"; sourceTree = "<group>"; };
 		50C5F38318699AAD0057564D /* UIWebView+UIPHTMLSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UIPHTMLSource.h"; sourceTree = "<group>"; };
 		50C5F38418699AAD0057564D /* UIWebView+UIPHTMLSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+UIPHTMLSource.m"; sourceTree = "<group>"; };
+		50C5F3A518699D0A0057564D /* libUIKitPlusLocalization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIKitPlusLocalization.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C5F3C818699D260057564D /* NSBundle+UIPLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+UIPLocalization.h"; sourceTree = "<group>"; };
+		50C5F3C918699D260057564D /* NSBundle+UIPLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+UIPLocalization.m"; sourceTree = "<group>"; };
+		50C5F3CA18699D260057564D /* NSBundle+UIPStandardLocalizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+UIPStandardLocalizations.h"; sourceTree = "<group>"; };
+		50C5F3CB18699D260057564D /* NSBundle+UIPStandardLocalizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+UIPStandardLocalizations.m"; sourceTree = "<group>"; };
+		50C5F3CC18699D260057564D /* UIButton+UIPLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIPLocalization.h"; sourceTree = "<group>"; };
+		50C5F3CD18699D260057564D /* UIButton+UIPLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIPLocalization.m"; sourceTree = "<group>"; };
+		50C5F3CE18699D260057564D /* UIKitPlusLocalization-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKitPlusLocalization-Prefix.pch"; sourceTree = "<group>"; };
+		50C5F3CF18699D260057564D /* UIKitPlusLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitPlusLocalization.h; sourceTree = "<group>"; };
+		50C5F3D018699D260057564D /* UIKitPlusLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitPlusLocalization.m; sourceTree = "<group>"; };
+		50C5F3D118699D260057564D /* UILabel+UIPLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+UIPLocalization.h"; sourceTree = "<group>"; };
+		50C5F3D218699D260057564D /* UILabel+UIPLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+UIPLocalization.m"; sourceTree = "<group>"; };
+		50C5F3D318699D260057564D /* UIView+UIPAccessibilityLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIPAccessibilityLocalization.h"; sourceTree = "<group>"; };
+		50C5F3D418699D260057564D /* UIView+UIPAccessibilityLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIPAccessibilityLocalization.m"; sourceTree = "<group>"; };
+		50C5F3D518699D260057564D /* UIView+UIPLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIPLocalization.h"; sourceTree = "<group>"; };
+		50C5F3D618699D260057564D /* UIView+UIPLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIPLocalization.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +157,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50C5F3A218699D0A0057564D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C5F3A618699D0A0057564D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -131,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				50C5F32718699A860057564D /* UIKitPlus */,
+				50C5F3C718699D260057564D /* UIKitPlusLocalization */,
 				50C5F32418699A860057564D /* Frameworks */,
 				50C5F32318699A860057564D /* Products */,
 			);
@@ -140,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				50C5F32218699A860057564D /* libUIKitPlus.a */,
+				50C5F3A518699D0A0057564D /* libUIKitPlusLocalization.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,6 +262,28 @@
 			path = UIKitPlus;
 			sourceTree = "<group>";
 		};
+		50C5F3C718699D260057564D /* UIKitPlusLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				50C5F3C818699D260057564D /* NSBundle+UIPLocalization.h */,
+				50C5F3C918699D260057564D /* NSBundle+UIPLocalization.m */,
+				50C5F3CA18699D260057564D /* NSBundle+UIPStandardLocalizations.h */,
+				50C5F3CB18699D260057564D /* NSBundle+UIPStandardLocalizations.m */,
+				50C5F3CC18699D260057564D /* UIButton+UIPLocalization.h */,
+				50C5F3CD18699D260057564D /* UIButton+UIPLocalization.m */,
+				50C5F3CE18699D260057564D /* UIKitPlusLocalization-Prefix.pch */,
+				50C5F3CF18699D260057564D /* UIKitPlusLocalization.h */,
+				50C5F3D018699D260057564D /* UIKitPlusLocalization.m */,
+				50C5F3D118699D260057564D /* UILabel+UIPLocalization.h */,
+				50C5F3D218699D260057564D /* UILabel+UIPLocalization.m */,
+				50C5F3D318699D260057564D /* UIView+UIPAccessibilityLocalization.h */,
+				50C5F3D418699D260057564D /* UIView+UIPAccessibilityLocalization.m */,
+				50C5F3D518699D260057564D /* UIView+UIPLocalization.h */,
+				50C5F3D618699D260057564D /* UIView+UIPLocalization.m */,
+			);
+			path = UIKitPlusLocalization;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -237,6 +302,23 @@
 			name = UIKitPlus;
 			productName = UIKitPlus;
 			productReference = 50C5F32218699A860057564D /* libUIKitPlus.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		50C5F3A418699D0A0057564D /* UIKitPlusLocalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50C5F3C518699D0B0057564D /* Build configuration list for PBXNativeTarget "UIKitPlusLocalization" */;
+			buildPhases = (
+				50C5F3A118699D0A0057564D /* Sources */,
+				50C5F3A218699D0A0057564D /* Frameworks */,
+				50C5F3A318699D0A0057564D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIKitPlusLocalization;
+			productName = UIKitPlusLocalization;
+			productReference = 50C5F3A518699D0A0057564D /* libUIKitPlusLocalization.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -261,6 +343,7 @@
 			projectRoot = "";
 			targets = (
 				50C5F32118699A860057564D /* UIKitPlus */,
+				50C5F3A418699D0A0057564D /* UIKitPlusLocalization */,
 			);
 		};
 /* End PBXProject section */
@@ -298,6 +381,20 @@
 				50C5F38718699AAD0057564D /* NSBundle+UIPUIKitBundle.m in Sources */,
 				50C5F38618699AAD0057564D /* NSBundle+UIPBundle.m in Sources */,
 				50C5F38E18699AAD0057564D /* UIPDiffusiveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C5F3A118699D0A0057564D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C5F3D718699D260057564D /* NSBundle+UIPLocalization.m in Sources */,
+				50C5F3DD18699D260057564D /* UIView+UIPLocalization.m in Sources */,
+				50C5F3DA18699D260057564D /* UIKitPlusLocalization.m in Sources */,
+				50C5F3DB18699D260057564D /* UILabel+UIPLocalization.m in Sources */,
+				50C5F3DC18699D260057564D /* UIView+UIPAccessibilityLocalization.m in Sources */,
+				50C5F3D818699D260057564D /* NSBundle+UIPStandardLocalizations.m in Sources */,
+				50C5F3D918699D260057564D /* UIButton+UIPLocalization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +495,36 @@
 			};
 			name = Release;
 		};
+		50C5F3C118699D0B0057564D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/UIKitPlusLocalization.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIKitPlusLocalization/UIKitPlusLocalization-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		50C5F3C218699D0B0057564D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/UIKitPlusLocalization.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIKitPlusLocalization/UIKitPlusLocalization-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +542,15 @@
 			buildConfigurations = (
 				50C5F34618699A860057564D /* Debug */,
 				50C5F34718699A860057564D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50C5F3C518699D0B0057564D /* Build configuration list for PBXNativeTarget "UIKitPlusLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C5F3C118699D0B0057564D /* Debug */,
+				50C5F3C218699D0B0057564D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
