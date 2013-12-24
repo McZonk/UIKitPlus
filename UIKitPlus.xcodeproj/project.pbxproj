@@ -389,7 +389,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/UIKitPlus.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIKitPlus/UIKitPlus-Prefix.pch";
+				GCC_PREFIX_HEADER = "UIKitPlus-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -401,7 +401,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/UIKitPlus.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIKitPlus/UIKitPlus-Prefix.pch";
+				GCC_PREFIX_HEADER = "UIKitPlus-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
