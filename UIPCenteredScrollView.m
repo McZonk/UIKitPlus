@@ -8,8 +8,6 @@
 
 #import "UIPCenteredScrollView.h"
 
-#import "NSArray+NSPFirstObject.h"
-
 @implementation UIPCenteredScrollView
 
 - (void)layoutSubviews {
