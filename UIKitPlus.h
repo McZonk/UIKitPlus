@@ -21,6 +21,8 @@
 
 #import "UIImage+UIPMetadata.h"
 
+#import "UIImageView+UIPImageFrame.h"
+
 #import "UIPLocalNotifiationActivity.h"
 
 #import "UIPOversizeScrollView.h"
