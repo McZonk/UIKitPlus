@@ -19,6 +19,8 @@
 
 #import "UIPFont+UIPFont.h"
 
+#import "UIImage+UIPMetadata.h"
+
 #import "UIPLocalNotifiationActivity.h"
 
 #import "UIPOversizeScrollView.h"
