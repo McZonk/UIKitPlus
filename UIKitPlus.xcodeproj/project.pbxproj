@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5067EF4F18A24DFB00785660 /* UIFont+UIPFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5067EF4E18A24DFB00785660 /* UIFont+UIPFonts.m */; };
 		50C5F32618699A860057564D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F32518699A860057564D /* Foundation.framework */; };
 		50C5F38518699AAD0057564D /* CGAffineTransformForInterfaceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F34C18699AAD0057564D /* CGAffineTransformForInterfaceOrientation.m */; };
 		50C5F38618699AAD0057564D /* NSBundle+UIPBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F34E18699AAD0057564D /* NSBundle+UIPBundle.m */; };
@@ -51,6 +52,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5067EF4D18A24DFB00785660 /* UIFont+UIPFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+UIPFonts.h"; sourceTree = "<group>"; };
+		5067EF4E18A24DFB00785660 /* UIFont+UIPFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+UIPFonts.m"; sourceTree = "<group>"; };
 		50C5F32218699A860057564D /* libUIKitPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIKitPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C5F32518699A860057564D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50C5F33318699A860057564D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -179,6 +182,8 @@
 				50C5F35E18699AAD0057564D /* UIPCheckbox.m */,
 				50C5F35F18699AAD0057564D /* UIPDiffusiveView.h */,
 				50C5F36018699AAD0057564D /* UIPDiffusiveView.m */,
+				5067EF4D18A24DFB00785660 /* UIFont+UIPFonts.h */,
+				5067EF4E18A24DFB00785660 /* UIFont+UIPFonts.m */,
 				50C5F36118699AAD0057564D /* UIPLocalNotifiationActivity.h */,
 				50C5F36218699AAD0057564D /* UIPLocalNotifiationActivity.m */,
 				50C5F36318699AAD0057564D /* UIPOversizeScrollView.h */,
@@ -279,6 +284,7 @@
 				50C5F3A018699AAD0057564D /* UIWebView+UIPHTMLSource.m in Sources */,
 				50C5F39D18699AAD0057564D /* UIViewController+UIPDismiss.m in Sources */,
 				50C5F38818699AAD0057564D /* NSMutableArray+IBOutletCollectionSorting.m in Sources */,
+				5067EF4F18A24DFB00785660 /* UIFont+UIPFonts.m in Sources */,
 				50C5F39318699AAD0057564D /* UITableViewCell+UIPCellCreation.m in Sources */,
 				50C5F38D18699AAD0057564D /* UIPCheckbox.m in Sources */,
 				50C5F39218699AAD0057564D /* UIPPositionTableViewCell.m in Sources */,

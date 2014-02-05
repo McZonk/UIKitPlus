@@ -17,6 +17,8 @@
 
 #import "UIPDiffusiveView.h"
 
+#import "UIPFont+UIPFont.h"
+
 #import "UIPLocalNotifiationActivity.h"
 
 #import "UIPOversizeScrollView.h"
