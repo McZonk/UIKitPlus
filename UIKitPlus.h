@@ -15,6 +15,8 @@
 
 #import "UIPCheckbox.h"
 
+#import "UIDevice+UIPNetworkName.h"
+
 #import "UIPDiffusiveView.h"
 
 #import "UIPFont+UIPFont.h"

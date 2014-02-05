@@ -12,6 +12,7 @@
 		5067EF5518A251B300785660 /* UIImage+UIPMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 5067EF5418A251B300785660 /* UIImage+UIPMetadata.m */; };
 		5067EF5818A251DB00785660 /* UIImageView+UIPImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5067EF5718A251DB00785660 /* UIImageView+UIPImageFrame.m */; };
 		5067EF5B18A2521600785660 /* UIView+UIPFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5067EF5A18A2521600785660 /* UIView+UIPFrame.m */; };
+		5067EF5E18A2528500785660 /* UIDevice+UIPNetworkName.m in Sources */ = {isa = PBXBuildFile; fileRef = 5067EF5D18A2528500785660 /* UIDevice+UIPNetworkName.m */; };
 		50C5F32618699A860057564D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F32518699A860057564D /* Foundation.framework */; };
 		50C5F38518699AAD0057564D /* CGAffineTransformForInterfaceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F34C18699AAD0057564D /* CGAffineTransformForInterfaceOrientation.m */; };
 		50C5F38618699AAD0057564D /* NSBundle+UIPBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F34E18699AAD0057564D /* NSBundle+UIPBundle.m */; };
@@ -66,6 +67,8 @@
 		5067EF5718A251DB00785660 /* UIImageView+UIPImageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+UIPImageFrame.m"; sourceTree = "<group>"; };
 		5067EF5918A2521600785660 /* UIView+UIPFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIPFrame.h"; sourceTree = "<group>"; };
 		5067EF5A18A2521600785660 /* UIView+UIPFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIPFrame.m"; sourceTree = "<group>"; };
+		5067EF5C18A2528500785660 /* UIDevice+UIPNetworkName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+UIPNetworkName.h"; sourceTree = "<group>"; };
+		5067EF5D18A2528500785660 /* UIDevice+UIPNetworkName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+UIPNetworkName.m"; sourceTree = "<group>"; };
 		50C5F32218699A860057564D /* libUIKitPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIKitPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C5F32518699A860057564D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50C5F33318699A860057564D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -192,6 +195,8 @@
 				50C5F35C18699AAD0057564D /* UIPCenteredScrollView.m */,
 				50C5F35D18699AAD0057564D /* UIPCheckbox.h */,
 				50C5F35E18699AAD0057564D /* UIPCheckbox.m */,
+				5067EF5C18A2528500785660 /* UIDevice+UIPNetworkName.h */,
+				5067EF5D18A2528500785660 /* UIDevice+UIPNetworkName.m */,
 				50C5F35F18699AAD0057564D /* UIPDiffusiveView.h */,
 				50C5F36018699AAD0057564D /* UIPDiffusiveView.m */,
 				5067EF4D18A24DFB00785660 /* UIFont+UIPFonts.h */,
@@ -305,6 +310,7 @@
 				50C5F39D18699AAD0057564D /* UIViewController+UIPDismiss.m in Sources */,
 				50C5F38818699AAD0057564D /* NSMutableArray+IBOutletCollectionSorting.m in Sources */,
 				5067EF4F18A24DFB00785660 /* UIFont+UIPFonts.m in Sources */,
+				5067EF5E18A2528500785660 /* UIDevice+UIPNetworkName.m in Sources */,
 				50C5F39318699AAD0057564D /* UITableViewCell+UIPCellCreation.m in Sources */,
 				50C5F38D18699AAD0057564D /* UIPCheckbox.m in Sources */,
 				50C5F39218699AAD0057564D /* UIPPositionTableViewCell.m in Sources */,
