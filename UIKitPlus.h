@@ -1,10 +1,42 @@
-//
-//  UIKitPlus.h
-//  UIKitPlus
-//
-//  Created by Maximilian Christ on 2013-01-09.
-//
-//
+#import "CGAffineTransformForInterfaceOrientation.h"
 
-#import <Foundation/Foundation.h>
+#import "NSBundle+UIPBundle.h"
+#import "NSBundle+UIPUIKitBundle.h"
 
+#import "NSMutableArray+IBOutletCollectionSorting.h"
+
+#import "UIAlertView+UIPShow.h"
+
+#import "UIApplication+UIPLocalNotification.h"
+
+#import "UIGestureRecognizer+UIPFail.h"
+
+#import "UIPCenteredScrollView.h"
+
+#import "UIPCheckbox.h"
+
+#import "UIPDiffusiveView.h"
+
+#import "UIPLocalNotifiationActivity.h"
+
+#import "UIPOversizeScrollView.h"
+
+#import "UITableViewCell+UIPCellCreation.h"
+
+#import "UITableViewHeaderFooterView+UIPHeaderFooterCreation.h"
+
+#import "UITextField+UIPOutlets.h"
+
+#import "UIView+UIPAnimationCurve.h"
+#import "UIView+UIPCornerRadius.h"
+#import "UIView+UIPFindSubview.h"
+#import "UIView+UIPNibLoading.h"
+#import "UIView+UIPRemoveAllSubviews.h"
+#import "UIView+UIPRenderToImage.h"
+#import "UIView+UIPSuperviewOfClass.h"
+
+#import "UIViewController+UIPDismiss.h"
+#import "UIViewController+UIPNavigationControllerPop.h"
+#import "UIViewController+UIPPresentModalViewControllerWithSize.h"
+
+#import "UIWebView+UIPHTMLSource.h"
