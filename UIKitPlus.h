@@ -42,3 +42,4 @@
 #import "UIViewController+UIPPresentModalViewControllerWithSize.h"
 
 #import "UIWebView+UIPHTMLSource.h"
+#import "UIWebView+UIPTitle.h"

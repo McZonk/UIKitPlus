@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5067EF4F18A24DFB00785660 /* UIFont+UIPFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5067EF4E18A24DFB00785660 /* UIFont+UIPFonts.m */; };
+		5067EF5218A2513400785660 /* UIWebView+UIPTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5067EF5118A2513400785660 /* UIWebView+UIPTitle.m */; };
 		50C5F32618699A860057564D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F32518699A860057564D /* Foundation.framework */; };
 		50C5F38518699AAD0057564D /* CGAffineTransformForInterfaceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F34C18699AAD0057564D /* CGAffineTransformForInterfaceOrientation.m */; };
 		50C5F38618699AAD0057564D /* NSBundle+UIPBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F34E18699AAD0057564D /* NSBundle+UIPBundle.m */; };
@@ -54,6 +55,8 @@
 /* Begin PBXFileReference section */
 		5067EF4D18A24DFB00785660 /* UIFont+UIPFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+UIPFonts.h"; sourceTree = "<group>"; };
 		5067EF4E18A24DFB00785660 /* UIFont+UIPFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+UIPFonts.m"; sourceTree = "<group>"; };
+		5067EF5018A2513400785660 /* UIWebView+UIPTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UIPTitle.h"; sourceTree = "<group>"; };
+		5067EF5118A2513400785660 /* UIWebView+UIPTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+UIPTitle.m"; sourceTree = "<group>"; };
 		50C5F32218699A860057564D /* libUIKitPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIKitPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C5F32518699A860057564D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50C5F33318699A860057564D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -220,6 +223,8 @@
 				50C5F38218699AAD0057564D /* UIViewController+UIPPresentModalViewControllerWithSize.m */,
 				50C5F38318699AAD0057564D /* UIWebView+UIPHTMLSource.h */,
 				50C5F38418699AAD0057564D /* UIWebView+UIPHTMLSource.m */,
+				5067EF5018A2513400785660 /* UIWebView+UIPTitle.h */,
+				5067EF5118A2513400785660 /* UIWebView+UIPTitle.m */,
 			);
 			name = UIKitPlus;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 				50C5F39218699AAD0057564D /* UIPPositionTableViewCell.m in Sources */,
 				50C5F39E18699AAD0057564D /* UIViewController+UIPNavigationControllerPop.m in Sources */,
 				50C5F39518699AAD0057564D /* UITextField+UIPOutlets.m in Sources */,
+				5067EF5218A2513400785660 /* UIWebView+UIPTitle.m in Sources */,
 				50C5F39718699AAD0057564D /* UIView+UIPCornerRadius.m in Sources */,
 				50C5F39618699AAD0057564D /* UIView+UIPAnimationCurve.m in Sources */,
 				50C5F39918699AAD0057564D /* UIView+UIPNibLoading.m in Sources */,
