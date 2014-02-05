@@ -36,6 +36,7 @@
 #import "UIView+UIPAnimationCurve.h"
 #import "UIView+UIPCornerRadius.h"
 #import "UIView+UIPFindSubview.h"
+#import "UIView+UIPFrame.h"
 #import "UIView+UIPNibLoading.h"
 #import "UIView+UIPRemoveAllSubviews.h"
 #import "UIView+UIPRenderToImage.h"
