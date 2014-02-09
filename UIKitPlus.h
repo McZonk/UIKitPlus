@@ -9,6 +9,8 @@
 
 #import "UIApplication+UIPLocalNotification.h"
 
+#import "UICollectionViewCell+UIPDefaultReuseIdentifier.h"
+
 #import "UIGestureRecognizer+UIPFail.h"
 
 #import "UIPCenteredScrollView.h"
@@ -30,6 +32,7 @@
 #import "UIPOversizeScrollView.h"
 
 #import "UITableViewCell+UIPCellCreation.h"
+#import "UITableViewCell+UIPDefaultReuseIdentifier.h"
 
 #import "UITableViewHeaderFooterView+UIPHeaderFooterCreation.h"
 

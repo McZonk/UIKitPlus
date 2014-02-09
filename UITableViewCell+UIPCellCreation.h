@@ -10,8 +10,6 @@
 
 @interface UITableViewCell (UIPCellCreation)
 
-+ (NSString*)defaultReuseIdentifier;
-
 + (instancetype)cell;
 
 + (instancetype)cellWithReuseIdentifier:(NSString*)reuseIdentifier;

@@ -8,11 +8,9 @@
 
 #import "UITableViewCell+UIPCellCreation.h"
 
-@implementation UITableViewCell (UIPCellCreation)
+#import "UITableViewCell+UIPDefaultReuseIdentifier.h"
 
-+ (NSString*)defaultReuseIdentifier {
-	return NSStringFromClass(self);
-}
+@implementation UITableViewCell (UIPCellCreation)
 
 + (instancetype)cell {
 	return [self cellWithReuseIdentifier:self.defaultReuseIdentifier bundle:nil];
