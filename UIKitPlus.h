@@ -19,7 +19,7 @@
 
 #import "UIPDiffusiveView.h"
 
-#import "UIPFont+UIPFont.h"
+#import "UIFont+UIPFonts.h"
 
 #import "UIImage+UIPMetadata.h"
 
