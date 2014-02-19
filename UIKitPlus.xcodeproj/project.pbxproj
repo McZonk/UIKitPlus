@@ -15,6 +15,8 @@
 		5067EF5E18A2528500785660 /* UIDevice+UIPNetworkName.m in Sources */ = {isa = PBXBuildFile; fileRef = 5067EF5D18A2528500785660 /* UIDevice+UIPNetworkName.m */; };
 		5078F3C518A7D1B800770EBC /* UITableViewCell+UIPDefaultReuseIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078F3C418A7D1B800770EBC /* UITableViewCell+UIPDefaultReuseIdentifier.m */; };
 		5078F3C818A7D20400770EBC /* UICollectionViewCell+UIPDefaultReuseIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078F3C718A7D20400770EBC /* UICollectionViewCell+UIPDefaultReuseIdentifier.m */; };
+		507F1FE818B4E618001B1203 /* UIApplication+UIPInstallationIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 507F1FE718B4E618001B1203 /* UIApplication+UIPInstallationIdentifier.m */; };
+		507F1FEF18B4E6B2001B1203 /* UICollectionView+UIPPerformUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 507F1FEE18B4E6B2001B1203 /* UICollectionView+UIPPerformUpdate.m */; };
 		50C5F32618699A860057564D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F32518699A860057564D /* Foundation.framework */; };
 		50C5F38518699AAD0057564D /* CGAffineTransformForInterfaceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F34C18699AAD0057564D /* CGAffineTransformForInterfaceOrientation.m */; };
 		50C5F38618699AAD0057564D /* NSBundle+UIPBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F34E18699AAD0057564D /* NSBundle+UIPBundle.m */; };
@@ -75,6 +77,10 @@
 		5078F3C418A7D1B800770EBC /* UITableViewCell+UIPDefaultReuseIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+UIPDefaultReuseIdentifier.m"; sourceTree = "<group>"; };
 		5078F3C618A7D20400770EBC /* UICollectionViewCell+UIPDefaultReuseIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+UIPDefaultReuseIdentifier.h"; sourceTree = "<group>"; };
 		5078F3C718A7D20400770EBC /* UICollectionViewCell+UIPDefaultReuseIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+UIPDefaultReuseIdentifier.m"; sourceTree = "<group>"; };
+		507F1FE618B4E618001B1203 /* UIApplication+UIPInstallationIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+UIPInstallationIdentifier.h"; sourceTree = "<group>"; };
+		507F1FE718B4E618001B1203 /* UIApplication+UIPInstallationIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+UIPInstallationIdentifier.m"; sourceTree = "<group>"; };
+		507F1FED18B4E6B2001B1203 /* UICollectionView+UIPPerformUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+UIPPerformUpdate.h"; sourceTree = "<group>"; };
+		507F1FEE18B4E6B2001B1203 /* UICollectionView+UIPPerformUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+UIPPerformUpdate.m"; sourceTree = "<group>"; };
 		50C5F32218699A860057564D /* libUIKitPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIKitPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C5F32518699A860057564D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50C5F33318699A860057564D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -193,6 +199,8 @@
 				50C5F35218699AAD0057564D /* NSMutableArray+IBOutletCollectionSorting.m */,
 				50C5F35318699AAD0057564D /* UIAlertView+UIPShow.h */,
 				50C5F35418699AAD0057564D /* UIAlertView+UIPShow.m */,
+				507F1FE618B4E618001B1203 /* UIApplication+UIPInstallationIdentifier.h */,
+				507F1FE718B4E618001B1203 /* UIApplication+UIPInstallationIdentifier.m */,
 				50C5F35518699AAD0057564D /* UIApplication+UIPLocalNotification.h */,
 				50C5F35618699AAD0057564D /* UIApplication+UIPLocalNotification.m */,
 				50C5F35718699AAD0057564D /* UIGestureRecognizer+UIPFail.h */,
@@ -201,6 +209,8 @@
 				50C5F35C18699AAD0057564D /* UIPCenteredScrollView.m */,
 				50C5F35D18699AAD0057564D /* UIPCheckbox.h */,
 				50C5F35E18699AAD0057564D /* UIPCheckbox.m */,
+				507F1FED18B4E6B2001B1203 /* UICollectionView+UIPPerformUpdate.h */,
+				507F1FEE18B4E6B2001B1203 /* UICollectionView+UIPPerformUpdate.m */,
 				5078F3C618A7D20400770EBC /* UICollectionViewCell+UIPDefaultReuseIdentifier.h */,
 				5078F3C718A7D20400770EBC /* UICollectionViewCell+UIPDefaultReuseIdentifier.m */,
 				5067EF5C18A2528500785660 /* UIDevice+UIPNetworkName.h */,
@@ -327,10 +337,12 @@
 				50C5F39E18699AAD0057564D /* UIViewController+UIPNavigationControllerPop.m in Sources */,
 				5078F3C518A7D1B800770EBC /* UITableViewCell+UIPDefaultReuseIdentifier.m in Sources */,
 				50C5F39518699AAD0057564D /* UITextField+UIPOutlets.m in Sources */,
+				507F1FE818B4E618001B1203 /* UIApplication+UIPInstallationIdentifier.m in Sources */,
 				5067EF5218A2513400785660 /* UIWebView+UIPTitle.m in Sources */,
 				50C5F39718699AAD0057564D /* UIView+UIPCornerRadius.m in Sources */,
 				50C5F39618699AAD0057564D /* UIView+UIPAnimationCurve.m in Sources */,
 				50C5F39918699AAD0057564D /* UIView+UIPNibLoading.m in Sources */,
+				507F1FEF18B4E6B2001B1203 /* UICollectionView+UIPPerformUpdate.m in Sources */,
 				50C5F39F18699AAD0057564D /* UIViewController+UIPPresentModalViewControllerWithSize.m in Sources */,
 				50C5F39C18699AAD0057564D /* UIView+UIPSuperviewOfClass.m in Sources */,
 				5067EF5B18A2521600785660 /* UIView+UIPFrame.m in Sources */,

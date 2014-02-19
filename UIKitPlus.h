@@ -7,6 +7,7 @@
 
 #import "UIAlertView+UIPShow.h"
 
+#import "UIApplication+UIPInstallationIdentifier.h"
 #import "UIApplication+UIPLocalNotification.h"
 
 #import "UICollectionViewCell+UIPDefaultReuseIdentifier.h"
