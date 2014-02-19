@@ -34,6 +34,8 @@
 
 #import "UIPOversizeScrollView.h"
 
+#import "UITableView+UIPPerformUpdate.h"
+
 #import "UITableViewCell+UIPCellCreation.h"
 #import "UITableViewCell+UIPDefaultReuseIdentifier.h"
 
