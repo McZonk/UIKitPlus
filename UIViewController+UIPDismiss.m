@@ -14,7 +14,7 @@
 	UIViewController* parentViewController = self.parentViewController;
 	if([parentViewController isKindOfClass:[UINavigationController class]]) {
 		UINavigationController* navigationController = (UINavigationController*)parentViewController;
-		if(navigationController.visibleViewController == self) {
+		if(navigationController.visibleViewController == self && navigationController.viewControllers.count > 1) {
 			[navigationController popViewControllerAnimated:animated];
 			return;
 		}
