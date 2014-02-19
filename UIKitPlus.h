@@ -12,6 +12,8 @@
 
 #import "UICollectionViewCell+UIPDefaultReuseIdentifier.h"
 
+#import "UICollectionView+UIPPerformUpdate.h"
+
 #import "UIGestureRecognizer+UIPFail.h"
 
 #import "UIPCenteredScrollView.h"
