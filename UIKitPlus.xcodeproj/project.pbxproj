@@ -49,6 +49,7 @@
 		50C5F3A018699AAD0057564D /* UIWebView+UIPHTMLSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F38418699AAD0057564D /* UIWebView+UIPHTMLSource.m */; };
 		50C757D318B61036003FF5E2 /* UIImage+UIPGrayImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C757D218B61036003FF5E2 /* UIImage+UIPGrayImage.m */; };
 		50C757DE18B61E00003FF5E2 /* UIAlertView+UIPUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C757DD18B61E00003FF5E2 /* UIAlertView+UIPUserInfo.m */; };
+		50C757ED18B66A89003FF5E2 /* UIActionSheet+UIPIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C757EC18B66A89003FF5E2 /* UIActionSheet+UIPIdentifier.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -152,6 +153,8 @@
 		50C757D218B61036003FF5E2 /* UIImage+UIPGrayImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIPGrayImage.m"; sourceTree = "<group>"; };
 		50C757DC18B61E00003FF5E2 /* UIAlertView+UIPUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+UIPUserInfo.h"; sourceTree = "<group>"; };
 		50C757DD18B61E00003FF5E2 /* UIAlertView+UIPUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+UIPUserInfo.m"; sourceTree = "<group>"; };
+		50C757EB18B66A89003FF5E2 /* UIActionSheet+UIPIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+UIPIdentifier.h"; sourceTree = "<group>"; };
+		50C757EC18B66A89003FF5E2 /* UIActionSheet+UIPIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+UIPIdentifier.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +209,8 @@
 				50C5F35018699AAD0057564D /* NSBundle+UIPUIKitBundle.m */,
 				50C5F35118699AAD0057564D /* NSMutableArray+IBOutletCollectionSorting.h */,
 				50C5F35218699AAD0057564D /* NSMutableArray+IBOutletCollectionSorting.m */,
+				50C757EB18B66A89003FF5E2 /* UIActionSheet+UIPIdentifier.h */,
+				50C757EC18B66A89003FF5E2 /* UIActionSheet+UIPIdentifier.m */,
 				50C5F35318699AAD0057564D /* UIAlertView+UIPShow.h */,
 				50C5F35418699AAD0057564D /* UIAlertView+UIPShow.m */,
 				50C757DC18B61E00003FF5E2 /* UIAlertView+UIPUserInfo.h */,
@@ -366,6 +371,7 @@
 				50C5F39418699AAD0057564D /* UITableViewHeaderFooterView+UIPHeaderFooterCreation.m in Sources */,
 				50C5F39A18699AAD0057564D /* UIView+UIPRemoveAllSubviews.m in Sources */,
 				50C5F39818699AAD0057564D /* UIView+UIPFindSubview.m in Sources */,
+				50C757ED18B66A89003FF5E2 /* UIActionSheet+UIPIdentifier.m in Sources */,
 				5067EF5818A251DB00785660 /* UIImageView+UIPImageFrame.m in Sources */,
 				5078F3C818A7D20400770EBC /* UICollectionViewCell+UIPDefaultReuseIdentifier.m in Sources */,
 				50C757D318B61036003FF5E2 /* UIImage+UIPGrayImage.m in Sources */,
