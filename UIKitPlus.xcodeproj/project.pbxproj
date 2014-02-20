@@ -47,6 +47,7 @@
 		50C5F39E18699AAD0057564D /* UIViewController+UIPNavigationControllerPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F38018699AAD0057564D /* UIViewController+UIPNavigationControllerPop.m */; };
 		50C5F39F18699AAD0057564D /* UIViewController+UIPPresentModalViewControllerWithSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F38218699AAD0057564D /* UIViewController+UIPPresentModalViewControllerWithSize.m */; };
 		50C5F3A018699AAD0057564D /* UIWebView+UIPHTMLSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F38418699AAD0057564D /* UIWebView+UIPHTMLSource.m */; };
+		50C757D318B61036003FF5E2 /* UIImage+UIPGrayImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C757D218B61036003FF5E2 /* UIImage+UIPGrayImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -146,6 +147,8 @@
 		50C5F38218699AAD0057564D /* UIViewController+UIPPresentModalViewControllerWithSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIPPresentModalViewControllerWithSize.m"; sourceTree = "<group>"; };
 		50C5F38318699AAD0057564D /* UIWebView+UIPHTMLSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UIPHTMLSource.h"; sourceTree = "<group>"; };
 		50C5F38418699AAD0057564D /* UIWebView+UIPHTMLSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+UIPHTMLSource.m"; sourceTree = "<group>"; };
+		50C757D118B61036003FF5E2 /* UIImage+UIPGrayImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIPGrayImage.h"; sourceTree = "<group>"; };
+		50C757D218B61036003FF5E2 /* UIImage+UIPGrayImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIPGrayImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +225,8 @@
 				50C5F36018699AAD0057564D /* UIPDiffusiveView.m */,
 				5067EF4D18A24DFB00785660 /* UIFont+UIPFonts.h */,
 				5067EF4E18A24DFB00785660 /* UIFont+UIPFonts.m */,
+				50C757D118B61036003FF5E2 /* UIImage+UIPGrayImage.h */,
+				50C757D218B61036003FF5E2 /* UIImage+UIPGrayImage.m */,
 				5067EF5318A251B300785660 /* UIImage+UIPMetadata.h */,
 				5067EF5418A251B300785660 /* UIImage+UIPMetadata.m */,
 				5067EF5618A251DB00785660 /* UIImageView+UIPImageFrame.h */,
@@ -358,6 +363,7 @@
 				50C5F39818699AAD0057564D /* UIView+UIPFindSubview.m in Sources */,
 				5067EF5818A251DB00785660 /* UIImageView+UIPImageFrame.m in Sources */,
 				5078F3C818A7D20400770EBC /* UICollectionViewCell+UIPDefaultReuseIdentifier.m in Sources */,
+				50C757D318B61036003FF5E2 /* UIImage+UIPGrayImage.m in Sources */,
 				50C5F38C18699AAD0057564D /* UIPCenteredScrollView.m in Sources */,
 				50C5F38918699AAD0057564D /* UIAlertView+UIPShow.m in Sources */,
 				50C5F38718699AAD0057564D /* NSBundle+UIPUIKitBundle.m in Sources */,
