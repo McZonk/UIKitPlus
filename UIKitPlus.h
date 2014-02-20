@@ -26,6 +26,7 @@
 
 #import "UIFont+UIPFonts.h"
 
+#import "UIImage+UIPGrayImage.h"
 #import "UIImage+UIPMetadata.h"
 
 #import "UIImageView+UIPImageFrame.h"
