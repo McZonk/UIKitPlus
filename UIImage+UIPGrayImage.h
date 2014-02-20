@@ -12,4 +12,6 @@
 
 - (UIImage *)grayImage;
 
+- (UIImage *)grayImageWithBackgroundColor:(UIColor *)color;
+
 @end
