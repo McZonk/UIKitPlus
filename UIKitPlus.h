@@ -6,6 +6,7 @@
 #import "NSMutableArray+IBOutletCollectionSorting.h"
 
 #import "UIAlertView+UIPShow.h"
+#import "UIAlertView+UIPUserInfo.h"
 
 #import "UIApplication+UIPInstallationIdentifier.h"
 #import "UIApplication+UIPLocalNotification.h"
