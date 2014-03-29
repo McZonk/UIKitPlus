@@ -34,6 +34,12 @@
 
 #import "UIImageView+UIPImageFrame.h"
 
+#import "UIInterpolatingMotionEffect+UIPInitWithMinMax.h"
+
+#import "UIMotionEffect+UIPDefaultEffects.h"
+
+#import "UIMotionEffectGroup+UIPInitWithMotionEffects.h"
+
 #import "UIPLocalNotifiationActivity.h"
 
 #import "UIPOversizeScrollView.h"

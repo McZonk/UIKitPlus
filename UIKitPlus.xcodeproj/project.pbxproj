@@ -18,6 +18,9 @@
 		507F1FE818B4E618001B1203 /* UIApplication+UIPInstallationIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 507F1FE718B4E618001B1203 /* UIApplication+UIPInstallationIdentifier.m */; };
 		507F1FEF18B4E6B2001B1203 /* UICollectionView+UIPPerformUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 507F1FEE18B4E6B2001B1203 /* UICollectionView+UIPPerformUpdate.m */; };
 		507F1FF218B4EB55001B1203 /* UITableView+UIPPerformUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 507F1FF118B4EB55001B1203 /* UITableView+UIPPerformUpdate.m */; };
+		509D939C18E0DF7100FC9A7A /* UIInterpolatingMotionEffect+UIPInitWithMinMax.m in Sources */ = {isa = PBXBuildFile; fileRef = 509D939718E0DF7100FC9A7A /* UIInterpolatingMotionEffect+UIPInitWithMinMax.m */; };
+		509D939D18E0DF7100FC9A7A /* UIMotionEffect+UIPDefaultEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 509D939918E0DF7100FC9A7A /* UIMotionEffect+UIPDefaultEffects.m */; };
+		509D939E18E0DF7100FC9A7A /* UIMotionEffectGroup+UIPInitWithMotionEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 509D939B18E0DF7100FC9A7A /* UIMotionEffectGroup+UIPInitWithMotionEffects.m */; };
 		50C5F32618699A860057564D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C5F32518699A860057564D /* Foundation.framework */; };
 		50C5F38518699AAD0057564D /* CGAffineTransformForInterfaceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F34C18699AAD0057564D /* CGAffineTransformForInterfaceOrientation.m */; };
 		50C5F38618699AAD0057564D /* NSBundle+UIPBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C5F34E18699AAD0057564D /* NSBundle+UIPBundle.m */; };
@@ -87,6 +90,12 @@
 		507F1FEE18B4E6B2001B1203 /* UICollectionView+UIPPerformUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+UIPPerformUpdate.m"; sourceTree = "<group>"; };
 		507F1FF018B4EB55001B1203 /* UITableView+UIPPerformUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+UIPPerformUpdate.h"; sourceTree = "<group>"; };
 		507F1FF118B4EB55001B1203 /* UITableView+UIPPerformUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+UIPPerformUpdate.m"; sourceTree = "<group>"; };
+		509D939618E0DF7100FC9A7A /* UIInterpolatingMotionEffect+UIPInitWithMinMax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIInterpolatingMotionEffect+UIPInitWithMinMax.h"; sourceTree = "<group>"; };
+		509D939718E0DF7100FC9A7A /* UIInterpolatingMotionEffect+UIPInitWithMinMax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIInterpolatingMotionEffect+UIPInitWithMinMax.m"; sourceTree = "<group>"; };
+		509D939818E0DF7100FC9A7A /* UIMotionEffect+UIPDefaultEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIMotionEffect+UIPDefaultEffects.h"; sourceTree = "<group>"; };
+		509D939918E0DF7100FC9A7A /* UIMotionEffect+UIPDefaultEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIMotionEffect+UIPDefaultEffects.m"; sourceTree = "<group>"; };
+		509D939A18E0DF7100FC9A7A /* UIMotionEffectGroup+UIPInitWithMotionEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIMotionEffectGroup+UIPInitWithMotionEffects.h"; sourceTree = "<group>"; };
+		509D939B18E0DF7100FC9A7A /* UIMotionEffectGroup+UIPInitWithMotionEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIMotionEffectGroup+UIPInitWithMotionEffects.m"; sourceTree = "<group>"; };
 		50C5F32218699A860057564D /* libUIKitPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIKitPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C5F32518699A860057564D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50C5F33318699A860057564D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -241,6 +250,12 @@
 				5067EF5418A251B300785660 /* UIImage+UIPMetadata.m */,
 				5067EF5618A251DB00785660 /* UIImageView+UIPImageFrame.h */,
 				5067EF5718A251DB00785660 /* UIImageView+UIPImageFrame.m */,
+				509D939618E0DF7100FC9A7A /* UIInterpolatingMotionEffect+UIPInitWithMinMax.h */,
+				509D939718E0DF7100FC9A7A /* UIInterpolatingMotionEffect+UIPInitWithMinMax.m */,
+				509D939818E0DF7100FC9A7A /* UIMotionEffect+UIPDefaultEffects.h */,
+				509D939918E0DF7100FC9A7A /* UIMotionEffect+UIPDefaultEffects.m */,
+				509D939A18E0DF7100FC9A7A /* UIMotionEffectGroup+UIPInitWithMotionEffects.h */,
+				509D939B18E0DF7100FC9A7A /* UIMotionEffectGroup+UIPInitWithMotionEffects.m */,
 				50C5F36118699AAD0057564D /* UIPLocalNotifiationActivity.h */,
 				50C5F36218699AAD0057564D /* UIPLocalNotifiationActivity.m */,
 				50C5F36318699AAD0057564D /* UIPOversizeScrollView.h */,
@@ -315,7 +330,7 @@
 		50C5F31A18699A860057564D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = McZonk;
 			};
 			buildConfigurationList = 50C5F31D18699A860057564D /* Build configuration list for PBXProject "UIKitPlus" */;
@@ -356,9 +371,11 @@
 				50C5F38D18699AAD0057564D /* UIPCheckbox.m in Sources */,
 				50C5F39218699AAD0057564D /* UIPPositionTableViewCell.m in Sources */,
 				50C5F39E18699AAD0057564D /* UIViewController+UIPNavigationControllerPop.m in Sources */,
+				509D939C18E0DF7100FC9A7A /* UIInterpolatingMotionEffect+UIPInitWithMinMax.m in Sources */,
 				5078F3C518A7D1B800770EBC /* UITableViewCell+UIPDefaultReuseIdentifier.m in Sources */,
 				50C5F39518699AAD0057564D /* UITextField+UIPOutlets.m in Sources */,
 				507F1FE818B4E618001B1203 /* UIApplication+UIPInstallationIdentifier.m in Sources */,
+				509D939D18E0DF7100FC9A7A /* UIMotionEffect+UIPDefaultEffects.m in Sources */,
 				5067EF5218A2513400785660 /* UIWebView+UIPTitle.m in Sources */,
 				50C5F39718699AAD0057564D /* UIView+UIPCornerRadius.m in Sources */,
 				50C5F39618699AAD0057564D /* UIView+UIPAnimationCurve.m in Sources */,
@@ -374,6 +391,7 @@
 				50C757ED18B66A89003FF5E2 /* UIActionSheet+UIPIdentifier.m in Sources */,
 				5067EF5818A251DB00785660 /* UIImageView+UIPImageFrame.m in Sources */,
 				5078F3C818A7D20400770EBC /* UICollectionViewCell+UIPDefaultReuseIdentifier.m in Sources */,
+				509D939E18E0DF7100FC9A7A /* UIMotionEffectGroup+UIPInitWithMotionEffects.m in Sources */,
 				50C757D318B61036003FF5E2 /* UIImage+UIPGrayImage.m in Sources */,
 				50C5F38C18699AAD0057564D /* UIPCenteredScrollView.m in Sources */,
 				50C5F38918699AAD0057564D /* UIAlertView+UIPShow.m in Sources */,
