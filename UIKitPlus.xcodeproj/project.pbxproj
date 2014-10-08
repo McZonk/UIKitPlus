@@ -13,6 +13,7 @@
 		5067EF5818A251DB00785660 /* UIImageView+UIPImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5067EF5718A251DB00785660 /* UIImageView+UIPImageFrame.m */; };
 		5067EF5B18A2521600785660 /* UIView+UIPFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5067EF5A18A2521600785660 /* UIView+UIPFrame.m */; };
 		5067EF5E18A2528500785660 /* UIDevice+UIPNetworkName.m in Sources */ = {isa = PBXBuildFile; fileRef = 5067EF5D18A2528500785660 /* UIDevice+UIPNetworkName.m */; };
+		506CE02719E5857A00A0D8BC /* UIAlertView+UIPButtonContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 506CE02619E5857A00A0D8BC /* UIAlertView+UIPButtonContext.m */; };
 		5078F3C518A7D1B800770EBC /* UITableViewCell+UIPDefaultReuseIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078F3C418A7D1B800770EBC /* UITableViewCell+UIPDefaultReuseIdentifier.m */; };
 		5078F3C818A7D20400770EBC /* UICollectionViewCell+UIPDefaultReuseIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078F3C718A7D20400770EBC /* UICollectionViewCell+UIPDefaultReuseIdentifier.m */; };
 		507F1FE818B4E618001B1203 /* UIApplication+UIPInstallationIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 507F1FE718B4E618001B1203 /* UIApplication+UIPInstallationIdentifier.m */; };
@@ -80,6 +81,8 @@
 		5067EF5A18A2521600785660 /* UIView+UIPFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIPFrame.m"; sourceTree = "<group>"; };
 		5067EF5C18A2528500785660 /* UIDevice+UIPNetworkName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+UIPNetworkName.h"; sourceTree = "<group>"; };
 		5067EF5D18A2528500785660 /* UIDevice+UIPNetworkName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+UIPNetworkName.m"; sourceTree = "<group>"; };
+		506CE02519E5857A00A0D8BC /* UIAlertView+UIPButtonContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+UIPButtonContext.h"; sourceTree = "<group>"; };
+		506CE02619E5857A00A0D8BC /* UIAlertView+UIPButtonContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+UIPButtonContext.m"; sourceTree = "<group>"; };
 		5078F3C318A7D1B800770EBC /* UITableViewCell+UIPDefaultReuseIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+UIPDefaultReuseIdentifier.h"; sourceTree = "<group>"; };
 		5078F3C418A7D1B800770EBC /* UITableViewCell+UIPDefaultReuseIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+UIPDefaultReuseIdentifier.m"; sourceTree = "<group>"; };
 		5078F3C618A7D20400770EBC /* UICollectionViewCell+UIPDefaultReuseIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+UIPDefaultReuseIdentifier.h"; sourceTree = "<group>"; };
@@ -220,6 +223,8 @@
 				50C5F35218699AAD0057564D /* NSMutableArray+IBOutletCollectionSorting.m */,
 				50C757EB18B66A89003FF5E2 /* UIActionSheet+UIPIdentifier.h */,
 				50C757EC18B66A89003FF5E2 /* UIActionSheet+UIPIdentifier.m */,
+				506CE02519E5857A00A0D8BC /* UIAlertView+UIPButtonContext.h */,
+				506CE02619E5857A00A0D8BC /* UIAlertView+UIPButtonContext.m */,
 				50C5F35318699AAD0057564D /* UIAlertView+UIPShow.h */,
 				50C5F35418699AAD0057564D /* UIAlertView+UIPShow.m */,
 				50C757DC18B61E00003FF5E2 /* UIAlertView+UIPUserInfo.h */,
@@ -399,6 +404,7 @@
 				50C757DE18B61E00003FF5E2 /* UIAlertView+UIPUserInfo.m in Sources */,
 				50C5F38618699AAD0057564D /* NSBundle+UIPBundle.m in Sources */,
 				5067EF5518A251B300785660 /* UIImage+UIPMetadata.m in Sources */,
+				506CE02719E5857A00A0D8BC /* UIAlertView+UIPButtonContext.m in Sources */,
 				50C5F38E18699AAD0057564D /* UIPDiffusiveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
